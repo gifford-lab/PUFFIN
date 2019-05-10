@@ -1,4 +1,4 @@
-name: puffin1
+name: puffin
 channels:
   - pytorch
   - bioconda
