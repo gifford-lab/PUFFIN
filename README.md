@@ -2,7 +2,9 @@
 
 ## Download the trained models
 
-Run the following in the repository folder:
+Here we provide PUFFIN models trained on peptitde-MHC binding affinity datasets from [NetMHCpan3.0](http://www.cbs.dtu.dk/services/NetMHCpan-3.0/) (for class I MHC) and [NetMHCIIpan-3.2](http://www.cbs.dtu.dk/services/NetMHCIIpan-3.2/) (for class II MHC). In the paper we reused the 5-fold cross-validation split to evaluate model performance, but in this repository the models are trained on data combined from all the folds. 
+
+Download the trained model by running the following in the repository folder:
 
 ```
 wget http://gerv.csail.mit.edu/models.tar.gz
