@@ -2,7 +2,9 @@
 
 ## Download the trained models
 
-Here we provide PUFFIN models trained on peptitde-MHC binding affinity datasets from [NetMHCpan3.0](http://www.cbs.dtu.dk/services/NetMHCpan-3.0/) (for class I MHC) and [NetMHCIIpan-3.2](http://www.cbs.dtu.dk/services/NetMHCIIpan-3.2/) (for class II MHC). In the paper we reused the 5-fold cross-validation split to evaluate model performance, but in this repository the models are trained on data combined from all the folds. 
+Here we provide PUFFIN models trained on peptitde-MHC binding affinity datasets from [NetMHCpan3.0](http://www.cbs.dtu.dk/services/NetMHCpan-3.0/) (for class I MHC) and [NetMHCIIpan-3.2](http://www.cbs.dtu.dk/services/NetMHCIIpan-3.2/) (for class II MHC). The five folds are combined and split into training and validation set.
+
+Note that because here we no longer need to hold out data as test set, this training setup is different from what's used in the paper (Table 1 and Table 2), where the training/test set provided by Bhattacharya et al. was used for class I MHC and the 5-fold cross-validation split from [NetMHCIIpan-3.2](http://www.cbs.dtu.dk/services/NetMHCIIpan-3.2/) was used for class II MHC (the performance on each fold was evaluated by a model trained on the other four folds).
 
 Download the trained model by running the following in the repository folder:
 
