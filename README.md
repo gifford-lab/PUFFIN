@@ -9,7 +9,7 @@ Note that because here we no longer need to hold out data as test set, this trai
 Download the trained model by running the following in the repository folder:
 
 ```
-wget http://gerv.csail.mit.edu/models.tar.gz
+wget https://www.dropbox.com/sh/7shfe1ma33zw4j9/AABoyWLqWafDQzyHIq17MTYLa/models.tar.gz
 tar -zxvf models.tar.gz
 ```
 
